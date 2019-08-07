@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+
+  web:
+    image: ctftraining/huwangbei_2018_easy_tornado
+    restart: always
+    ports:
+      - "127.0.0.1:8081:5000"
